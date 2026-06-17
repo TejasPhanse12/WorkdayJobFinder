@@ -31,16 +31,24 @@ pip install requests
    python workday.py
    ```
 
-## Configuration
+## The `company_dict` Variable
 
-Companies are stored in a list of dictionaries with the following structure:
-```python
-{
-    "company": "company_name",
-    "env": "workday_environment", # e.g., wd1, wd5
-    "user_name": "careers_slug"
-}
-```
+The `company_dict` variable is the **heart of the WorkdayJobFinder**. It is a list of dictionaries where each entry provides the necessary metadata for the script to successfully locate and query a specific company's Workday career portal.
+
+### Why is it important?
+Workday job portals are hosted on different subdomains (environments) and use unique identifier slugs for their career sites. Without the correct configuration in `company_dict`, the script cannot construct the valid API or web URL required to fetch job listings.
+
+### Structure Breakdown
+Each dictionary in the list follows this schema:
+
+| Key | Description | Example |
+| :--- | :--- | :--- |
+| `company` | The primary name of the company (used for the subdomain). | `comcast`, `walmart` |
+| `env` | The specific Workday environment/instance (e.g., `wd1`, `wd5`). | `wd5`, `wd504` |
+| `user_name` | The unique identifier or "slug" for the company's career portal. | `Comcast_Careers` |
+
+### Adding New Companies
+To track a new company, simply find their Workday career site URL and extract these three components to add a new entry to the list in `workday.py`.
 
 ## Future Improvements
 

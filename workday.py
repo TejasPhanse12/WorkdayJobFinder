@@ -11,7 +11,7 @@ company_dict = [
     {"company":"nvidia", "env":"wd5", "user_name":"NVIDIAExternalCareerSite"},
 ]
 
-role = "analyst"
+role = "Data Science Analyst United States"
 
 headers = {
     "Accept": "application/json",
@@ -22,24 +22,54 @@ headers = {
 # The body requires these parameters to handle pagination, filtering and search
 payload = {
     "appliedFacets": {},
-    "limit": 20,
+    "limit": 100,
     "offset": 0,
     "searchText": role,
 }
+
+job_filter = ["Just Posted", "Posted Today", "Posted Yesterday","Posted 2 Days Ago", 
+              "Posted 3 Days Ago","Posted 4 Days Ago", "Posted 5 Days Ago"]
 
 print(company_dict)
 
 for company in company_dict:
     print(company["company"], company["env"], company["user_name"])
+
     # The JSON search API lives at /wday/cxs/{tenant}/{site}/jobs — NOT the human-facing /en-US/ page URL
     url = f"https://{company['company']}.{company['env']}.myworkdayjobs.com/wday/cxs/{company['company']}/{company['user_name']}/jobs"
 
-    response = requests.post(url, headers=headers, json=payload)
+    # Number of jobs to return per page, offset for pagination, and search text are all passed in the body of the request
+    off_set = 0
 
-    print(f"Status Code: {response.status_code}")
+    while True:
+        try:
+            payload = {
+                "appliedFacets": {},
+                "limit": 20,
+                "offset": off_set,
+                "searchText": role,
+            }
+            
+            response = requests.post(url, headers=headers, json=payload)
 
-    if response.status_code == 200:
-        job_data = response.json()
-        # This yields a beautifully structured list of open jobs
-        print(json.dumps(job_data['jobPostings'], indent=2))
+            if response.status_code == 200:
+                data = response.json()
+
+                job_data = data.get("jobPostings", [])
+
+                filtered_jobs = [ job for job in job_data if job.get("postedOn") in job_filter ]
+
+                # This yields a beautifully structured list of open jobs
+                print(json.dumps(filtered_jobs, indent=2))
+
+                off_set += 20  # Increment the offset for the next page of results
+
+                if len(job_data) < 20:
+                    break  # Exit the loop if there are no more jobs to fetch
+
+        except requests.exceptions.RequestException as e:
+            print(f"An error occurred: {e}")
+            break
+        
+
 
