@@ -1,0 +1,650 @@
+{
+  "comcast": [
+    {
+      "url": "https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs"
+    },
+    {
+      "title": "Principal FinOps Analyst",
+      "externalPath": "/job/PA---Philadelphia-1800-Arch-St/Principal-Cloud-Cost-Analyst_R438025",
+      "timeType": "Full time",
+      "locationsText": "PA - Philadelphia, 1800 Arch St",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R438025"
+      ]
+    }
+  ],
+  "wexinc": [
+    {
+      "url": "https://wexinc.wd5.myworkdayjobs.com/wday/cxs/wexinc/WEXInc/jobs"
+    },
+    {
+      "title": "Staff Engineer - .NET/AI",
+      "externalPath": "/job/Brazil---Remote/Staff-Engineer---NET-AI_R21660",
+      "locationsText": "Brazil - Remote",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R21660"
+      ]
+    }
+  ],
+  "idexx": [
+    {
+      "url": "https://idexx.wd1.myworkdayjobs.com/wday/cxs/idexx/IDEXX/jobs"
+    },
+    {
+      "title": "Staff Data Scientist- AI Engineer Clinical Solutions",
+      "externalPath": "/job/Westbrook-ME/Staff-Data-Scientist_J-052319",
+      "locationsText": "Westbrook, ME",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "J-052319"
+      ]
+    },
+    {
+      "title": "Senior Systems Integration Engineer",
+      "externalPath": "/job/Westbrook-ME/Senior-Applied-Mathematics-Engineer_J-052931",
+      "locationsText": "Westbrook, ME",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "J-052931"
+      ]
+    },
+    {
+      "title": "Senior R&D Manager \u2014 New Product Development & Regulatory Licensing",
+      "externalPath": "/job/Westbrook-ME/Senior-R-D-Manager---New-Product-Development---Regulatory-Licensing_J-053627",
+      "locationsText": "Westbrook, ME",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "J-053627"
+      ]
+    }
+  ],
+  "abbott": [
+    {
+      "url": "https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs"
+    },
+    {
+      "title": "Data Science and Business Analytics Manager",
+      "externalPath": "/job/United-States---California---Alameda/Data-Science-and-Business-Analytics-Manager_31151998-1",
+      "locationsText": "United States - California - Alameda",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "31151998"
+      ]
+    },
+    {
+      "title": "Forensic Scientist Data Review II",
+      "externalPath": "/job/United-States---Louisiana---Gretna/Forensic-Scientist-Data-Review-II_31153797-1",
+      "locationsText": "United States - Louisiana - Gretna",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "31153797"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "externalPath": "/job/United-States---California---Alameda/Financial-Analyst_31153356-1",
+      "locationsText": "United States - California - Alameda",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "31153356"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "externalPath": "/job/United-States---Texas---Irving/Senior-Financial-Analyst_31152696-1",
+      "locationsText": "United States - Texas - Irving",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "31152696"
+      ]
+    },
+    {
+      "title": "Specialist, Clinical Planning and Performance",
+      "externalPath": "/job/United-States---Minnesota---Maple-Grove/Specialist--Clinical-Planning-and-Performance_31152962-1",
+      "locationsText": "United States - Minnesota - Maple Grove",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "31152962"
+      ]
+    },
+    {
+      "title": "Project Engineer  Casa Grande, AZ",
+      "externalPath": "/job/United-States---Arizona---Casa-Grande/Senior-Project-Engineer---Nutrition-Manufacturing----Casa-Grande--AZ_31153347-1",
+      "locationsText": "United States - Arizona - Casa Grande",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "31153347"
+      ]
+    },
+    {
+      "title": "Senior Medical Writer, Clinical Evaluation (on-site)",
+      "externalPath": "/job/United-States---Minnesota---Maple-Grove/Senior-Medical-Writer--Clinical-Evaluation--on-site-_31137039-2",
+      "locationsText": "United States - Minnesota - Maple Grove",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "31137039"
+      ]
+    },
+    {
+      "title": "Senior Supervisor, Customer Service",
+      "externalPath": "/job/United-States---Virginia---Richmond/Senior-Supervisor--Customer-Service_31153457-1",
+      "locationsText": "United States - Virginia - Richmond",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "31153457"
+      ]
+    },
+    {
+      "title": "Senior Batch Record Auditor",
+      "externalPath": "/job/United-States---Ohio---Columbus/Senior-Batch-Record-Auditor_31153024-1",
+      "locationsText": "United States - Ohio - Columbus",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "31153024"
+      ]
+    },
+    {
+      "title": "Senior Manager Medical Affairs, Lingo",
+      "externalPath": "/job/United-States---California---Alameda/Senior-Manager-Medical-Affairs--Lingo_31153798-1",
+      "locationsText": "United States - California - Alameda",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "31153798"
+      ]
+    },
+    {
+      "title": "Clinical Sales Specialist, Structural Heart, TEER (Oklahoma)",
+      "externalPath": "/job/United-States---Oklahoma---Oklahoma-City/Clinical-Sales-Specialist--Structural-Heart--TEER--Oklahoma-_31153869-2",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "31153869"
+      ]
+    },
+    {
+      "title": "Clinical Sales Specialist, Structural Heart, TEER ( Chicago, IL)",
+      "externalPath": "/job/United-States---Illinois---Chicago/Clinical-Sales-Specialist--Structural-Heart--TEER---Chicago--IL-_31131045-1",
+      "locationsText": "United States - Illinois - Chicago",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "31131045"
+      ]
+    },
+    {
+      "title": "Clinical Sales Specialist, Electrophysiology - LAA\u00a0(Cincinnati, OH)",
+      "externalPath": "/job/United-States---Ohio---Cincinnati/Clinical-Sales-Specialist--Electrophysiology---LAA--Cincinnati--OH-_31149137-1",
+      "locationsText": "United States - Ohio - Cincinnati",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "31149137"
+      ]
+    },
+    {
+      "title": "Clinical Sales Specialist, Electrophysiology - LAA\u00a0(Pittsburgh, PA)",
+      "externalPath": "/job/United-States---Pennsylvania---Pittsburgh/Clinical-Sales-Specialist--Electrophysiology---LAA--Pittsburgh--PA-_31149015-1",
+      "locationsText": "United States - Pennsylvania - Pittsburgh",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "31149015"
+      ]
+    },
+    {
+      "title": "Clinical Sales Specialist, Electrophysiology - LAA (St. Louis, MO)",
+      "externalPath": "/job/United-States---Missouri---St-Louis/Clinical-Sales-Specialist--Electrophysiology---LAA--St-Louis--MO-_31153553-2",
+      "locationsText": "United States - Missouri - St. Louis",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "31153553"
+      ]
+    },
+    {
+      "title": "Senior Manager EHS",
+      "externalPath": "/job/Ireland---Galway/Senior-Manager-EHS_31153400",
+      "locationsText": "Ireland - Galway",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "31153400"
+      ]
+    }
+  ],
+  "walmart": [
+    {
+      "url": "https://walmart.wd504.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+    },
+    {
+      "title": "Director- Data Science",
+      "externalPath": "/job/Bellevue-WA/Director--Data-Science_R-2541545",
+      "locationsText": "Bellevue, WA",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2541545"
+      ]
+    },
+    {
+      "title": "(USA) Senior, Data Analyst",
+      "externalPath": "/job/USA-Together-Building-AR-Bentonville-Home-Office/XMLNAME--USA--Senior--Data-Analyst_R-2543499-1",
+      "locationsText": "(USA) Together Building AR Bentonville Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2543499"
+      ]
+    },
+    {
+      "title": "Distinguished, Data Scientist",
+      "externalPath": "/job/Bellevue-WA/Distinguished--Data-Scientist_R-2547345-1",
+      "locationsText": "Bellevue, WA",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2547345"
+      ]
+    },
+    {
+      "title": "Principal, Data Scientist",
+      "externalPath": "/job/Bentonville-AR/Principal--Data-Scientist_R-2526231",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2526231"
+      ]
+    },
+    {
+      "title": "(USA) Senior, Data Scientist",
+      "externalPath": "/job/USA-Change-Building-AR-Bentonville-Home-Office/XMLNAME--USA--Senior--Data-Scientist_R-2530354-1",
+      "locationsText": "(USA) Change Building AR Bentonville Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2530354"
+      ]
+    },
+    {
+      "title": "(USA) Staff, Data Scientist",
+      "externalPath": "/job/USA-San-Bruno---850-Cherry-CA-San-Bruno-Home-Office/XMLNAME--USA--Staff--Data-Scientist_R-2525296-1",
+      "locationsText": "(USA) San Bruno - 850 Cherry CA San Bruno Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2525296"
+      ]
+    },
+    {
+      "title": "Senior, Data Scientist - eCommerce Strategy",
+      "externalPath": "/job/Bentonville-AR/Senior--Data-Scientist---eCommerce-Strategy_R-2515961",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2515961"
+      ]
+    },
+    {
+      "title": "Staff, Data Scientist - eCommerce Strategy",
+      "externalPath": "/job/Bentonville-AR/Staff--Data-Scientist---eCommerce-Strategy_R-2515968",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2515968"
+      ]
+    },
+    {
+      "title": "Senior, Data Scientist \u2013 Inventory Flow Analytics, CVP Analytics Root Cause and Optimization",
+      "externalPath": "/job/Bentonville-AR/Senior--Data-Scientist---Inventory-Flow-Analytics--CVP-Analytics-Root-Cause-and-Optimization_R-2426469-1",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2426469"
+      ]
+    },
+    {
+      "title": "(USA) Manager, Data Analytics",
+      "externalPath": "/job/USA-Purpose-Building-AR-Bentonville-Home-Office/XMLNAME--USA--Manager--Data-Analytics_R-2475895-1",
+      "locationsText": "(USA) Purpose Building AR Bentonville Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2475895"
+      ]
+    },
+    {
+      "title": "(USA) Manager, Data Analytics",
+      "externalPath": "/job/USA-Purpose-Building-AR-Bentonville-Home-Office/XMLNAME--USA--Manager--Data-Analytics_R-2530072-1",
+      "locationsText": "(USA) Purpose Building AR Bentonville Home Office",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2530072"
+      ]
+    },
+    {
+      "title": "Director, Data Analytics - Global Marketplace",
+      "externalPath": "/job/Bentonville-AR/Director--Data-Analytics---Global-Marketplace_R-2526794",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2526794"
+      ]
+    },
+    {
+      "title": "(USA) Staff, Intrusion Analyst",
+      "externalPath": "/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Staff--Intrusion-Analyst_R-2531436-1",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2531436"
+      ]
+    },
+    {
+      "title": "(USA) Senior Intrusion Analyst",
+      "externalPath": "/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Senior-Intrusion-Analyst_R-2531318-1",
+      "locationsText": "(USA) ISD Office - DGTC AR BENTONVILLE Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2531318"
+      ]
+    },
+    {
+      "title": "Senior Director, Data Analytics - Sales Analytics & Tools - Walmart Connect",
+      "externalPath": "/job/San-Bruno-CA/Senior-Director--Data-Analytics---Sales-Analytics---Tools---Walmart-Connect_R-2453125-1",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2453125"
+      ]
+    },
+    {
+      "title": "(USA) Senior Intrusion Analyst",
+      "externalPath": "/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Senior-Intrusion-Analyst_R-2531544-1",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2531544"
+      ]
+    },
+    {
+      "title": "Senior Analyst, Business Support",
+      "externalPath": "/job/USA-Together-Building-AR-Bentonville-Home-Office/Senior-Analyst--Business-Support_R-2537483",
+      "locationsText": "(USA) Together Building AR Bentonville Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2537483"
+      ]
+    },
+    {
+      "title": "Senior Analyst, Business Operations eCommerce",
+      "externalPath": "/job/USA-San-Bruno---850-Cherry-CA-San-Bruno-Home-Office/Senior-Analyst--Business-Operations-eCommerce_R-2485916-1",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2485916"
+      ]
+    },
+    {
+      "title": "Manager, Project Management - Digital Merchandising",
+      "externalPath": "/job/USA-Sams-Home-Office-AR-Bentonville-Home-Office/Manager--Project-Management_R-2536883",
+      "locationsText": "(USA) Sam's Home Office AR Bentonville Home Office",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2536883"
+      ]
+    },
+    {
+      "title": "(USA) Principal, Product Manager",
+      "externalPath": "/job/USA-Hula-Building-Bentonville-AR-Home-Office/XMLNAME--USA--Principal--Product-Manager_R-2538197-1",
+      "locationsText": "(USA) Hula Building Bentonville AR Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2538197"
+      ]
+    },
+    {
+      "title": "(USA) Software Engineer III, Information Security",
+      "externalPath": "/job/USA-HERNDON-VA-TECH-FACILITY-VA-Herndon-Home-Office/XMLNAME--USA--Software-Engineer-III--Information-Security_R-2538215-1",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2538215"
+      ]
+    },
+    {
+      "title": "Senior Manager, Business Strategy - eComm (Sam's Club)",
+      "externalPath": "/job/USA-Sams-Home-Office-AR-Bentonville-Home-Office/Senior-Manager--Business-Strategy---eComm--Sam-s-Club-_R-2503555",
+      "locationsText": "(USA) Sam's Home Office AR Bentonville Home Office",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2503555"
+      ]
+    },
+    {
+      "title": "(USA) Principal, Product Manager",
+      "externalPath": "/job/USA-Crossman-Excellence-Building-CA-SUNNYVALE-Home-Office/XMLNAME--USA--Principal--Product-Manager_R-2532510-1",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2532510"
+      ]
+    },
+    {
+      "title": "Software Engineer III",
+      "externalPath": "/job/IN-TN-CHENNAI-Home-Office-Capita-Land/Software-Engineer-III_R-2419917",
+      "locationsText": "IN TN CHENNAI Home Office Capita Land",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2419917"
+      ]
+    },
+    {
+      "title": "Principal, Technical Program Manager",
+      "externalPath": "/job/Bellevue-WA/Principal--Technical-Program-Manager_R-2496265",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2496265"
+      ]
+    },
+    {
+      "title": "(USA) Senior Quality Engineer",
+      "externalPath": "/job/USA-VIZIO-SERVICES-DENVER-CO-DENVER-Home-Office/XMLNAME--USA--Senior-Quality-Engineer_R-2506925-1",
+      "locationsText": "(USA) VIZIO SERVICES DENVER CO DENVER Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2506925"
+      ]
+    },
+    {
+      "title": "Senior Director, Business Strategy - Sam's Club Member Access Platform",
+      "externalPath": "/job/Bentonville-AR/Senior-Director--Business-Strategy_R-2538514-1",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2538514"
+      ]
+    },
+    {
+      "title": "(USA) Director, Operations",
+      "externalPath": "/job/Bentonville-AR/XMLNAME--USA--Director--Operations_R-2538607",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2538607"
+      ]
+    },
+    {
+      "title": "Group Director, Product Management\u2013 Global Marketplace Delivery Speed",
+      "externalPath": "/job/Bentonville-AR/Group-Director--Product-Management--Global-Marketplace-Delivery-Speed_R-2544319",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2544319"
+      ]
+    },
+    {
+      "title": "Senior, Software Engineer - Backend Java",
+      "externalPath": "/job/Bentonville-AR/Senior--Software-Engineer---Backend-Java_R-2546436",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2546436"
+      ]
+    },
+    {
+      "title": "(USA) Group Director, Technology Operations",
+      "externalPath": "/job/Hoboken-NJ/XMLNAME--USA--Group-Director--Technology-Operations_R-2530212",
+      "locationsText": "Hoboken, NJ",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "R-2530212"
+      ]
+    },
+    {
+      "title": "Senior, Software Engineer",
+      "externalPath": "/job/USA-Crossman-Respect-Building-CA-SUNNYVALE-Home-Office/Senior--Software-Engineer_R-2263009",
+      "locationsText": "(USA) Crossman Respect Building CA SUNNYVALE Home Office",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2263009"
+      ]
+    },
+    {
+      "title": "Staff, Software Engineer",
+      "externalPath": "/job/Bentonville-AR/Staff--Software-Engineer_R-2547355-1",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "R-2547355"
+      ]
+    },
+    {
+      "title": "Principal, Software Engineer",
+      "externalPath": "/job/Bentonville-AR/Principal--Software-Engineer_R-2547353",
+      "locationsText": "Bentonville, AR",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "R-2547353"
+      ]
+    },
+    {
+      "title": "(USA) Project Manager Ii, Implementation And Sustainment - Supply Chain",
+      "externalPath": "/job/USA-AR-BENTONVILLE-06094-REGIONAL/XMLNAME--USA--Project-Manager-Ii--Implementation-And-Sustainment---Supply-Chain_R-2547189-1",
+      "locationsText": "(USA) AR BENTONVILLE 06094 REGIONAL",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2547189"
+      ]
+    },
+    {
+      "title": "(USA) Principal, Technical Program Manager",
+      "externalPath": "/job/USA-Redbird-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Principal--Technical-Program-Manager_R-2543849",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted Yesterday",
+      "bulletFields": [
+        "R-2543849"
+      ]
+    },
+    {
+      "title": "Manager, Project Management - Creative Operations Producer - Sam's Club Member Access Platform (MAP)",
+      "externalPath": "/job/USA-Sams-Home-Office-AR-Bentonville-Home-Office/Manager--Project-Management---Creative-Operations-Producer---Sam-s-Club-Member-Access-Platform--MAP-_R-2537056",
+      "locationsText": "(USA) Sam's Home Office AR Bentonville Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2537056"
+      ]
+    },
+    {
+      "title": "Manager, Project Management - Creative Operations Producer - Sam's Club Member Access Platform (MAP)",
+      "externalPath": "/job/USA-Sams-Home-Office-AR-Bentonville-Home-Office/Manager--Project-Management---Creative-Operations-Producer---Sam-s-Club-Member-Access-Platform--MAP-_R-2537062",
+      "locationsText": "(USA) Sam's Home Office AR Bentonville Home Office",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "R-2537062"
+      ]
+    }
+  ],
+  "huron": [
+    {
+      "url": "https://huron.wd1.myworkdayjobs.com/wday/cxs/huron/huroncareers/jobs"
+    }
+  ],
+  "nvidia": [
+    {
+      "url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    },
+    {
+      "title": "Senior Data Center Performance Engineer - Benchmarking and Optimization",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Data-Center-Performance-Engineer---Benchmarking-and-Optimization_JR2008808",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 4 Days Ago",
+      "bulletFields": [
+        "JR2008808"
+      ]
+    },
+    {
+      "title": "Automation Infrastructure Engineer",
+      "externalPath": "/job/Israel-Yokneam/Automation-Infrastructure-Engineer_JR2019117",
+      "locationsText": "Israel, Yokneam",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "JR2019117"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer, At Scale Compute Analysis",
+      "externalPath": "/job/US-CA-Santa-Clara/Systems-Data-Engineer_JR1999730",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "JR1999730"
+      ]
+    },
+    {
+      "title": "Director, Product Management \u2013 DOCA",
+      "externalPath": "/job/Israel-Yokneam/Director--Product-Management---DOCA_JR2019875",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "JR2019875"
+      ]
+    },
+    {
+      "title": "Senior Scientific Machine Learning Engineer \u2013 Earth-2",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Scientific-Machine-Learning-Engineer---Earth-2_JR2012860",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 4 Days Ago",
+      "bulletFields": [
+        "JR2012860"
+      ]
+    },
+    {
+      "title": "Senior Systems Engineer, Storage - DGX Cloud",
+      "externalPath": "/job/US-CA-Remote/Senior-Systems-Engineer--Storage---DGX-Cloud_JR2019408",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "JR2019408"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer - Agentic AI",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Applied-LLM-Engineer--AI---Chip-Design_JR1989138",
+      "locationsText": "US, CA, Santa Clara",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "JR1989138"
+      ]
+    },
+    {
+      "title": "Senior Systems Software Engineer, Semiconductor Systems Inspection",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer--Semiconductor-Systems-Inspection_JR2019816-1",
+      "locationsText": "US, CA, Santa Clara",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": [
+        "JR2019816"
+      ]
+    },
+    {
+      "title": "Senior HPC Architect, Automation and At-Scale Deployment",
+      "externalPath": "/job/US-CA-Santa-Clara/Senior-HPC-Architect_JR1999579",
+      "locationsText": "13 Locations",
+      "postedOn": "Posted 5 Days Ago",
+      "bulletFields": [
+        "JR1999579"
+      ]
+    }
+  ]
+}

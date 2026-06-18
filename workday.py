@@ -30,7 +30,7 @@ payload = {
 job_filter = ["Just Posted", "Posted Today", "Posted Yesterday","Posted 2 Days Ago", 
               "Posted 3 Days Ago","Posted 4 Days Ago", "Posted 5 Days Ago"]
 
-print(company_dict)
+all_jobs = {}
 
 for company in company_dict:
     print(company["company"], company["env"], company["user_name"])
@@ -59,8 +59,10 @@ for company in company_dict:
 
                 filtered_jobs = [ job for job in job_data if job.get("postedOn") in job_filter ]
 
-                # This yields a beautifully structured list of open jobs
-                print(json.dumps(filtered_jobs, indent=2))
+                if company["company"] not in all_jobs:
+                    all_jobs[company["company"]] = []
+                    all_jobs[company["company"]].append({"url": url})
+                all_jobs[company["company"]].extend(filtered_jobs)
 
                 off_set += 20  # Increment the offset for the next page of results
 
@@ -70,6 +72,9 @@ for company in company_dict:
         except requests.exceptions.RequestException as e:
             print(f"An error occurred: {e}")
             break
-        
 
+with open("jobs.json", "w") as f:
+    json.dump(all_jobs, f, indent=2)
+
+print("Saved results to jobs.json")
 
