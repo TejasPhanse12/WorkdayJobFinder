@@ -1,17 +1,10 @@
 import requests
 import json 
+import companyinfo as cpi
 
-company_dict = [
-    {"company":"comcast", "env":"wd5", "user_name":"Comcast_Careers"},
-    {"company":"wexinc", "env":"wd5", "user_name":"WEXInc"},
-    {"company":"idexx", "env":"wd1", "user_name":"IDEXX"},
-    {"company":"abbott", "env":"wd5", "user_name":"abbottcareers"},
-    {"company":"walmart", "env":"wd504", "user_name":"WalmartExternal"},
-    {"company":"huron", "env":"wd1", "user_name":"huroncareers"},
-    {"company":"nvidia", "env":"wd5", "user_name":"NVIDIAExternalCareerSite"},
-]
 
-role = "Data Science Analyst United States"
+company_dict = cpi.CompanyInfo("comcast", "wd5", "Comcast_Careers").get_company_info()
+role = cpi.CompanyInfo("comcast", "wd5", "Comcast_Careers").get_role()
 
 headers = {
     "Accept": "application/json",
@@ -62,6 +55,8 @@ for company in company_dict:
                 if company["company"] not in all_jobs:
                     all_jobs[company["company"]] = []
                     all_jobs[company["company"]].append({"url": url})
+                
+                # Append the filtered jobs to the company's list in the all_jobs dictionary
                 all_jobs[company["company"]].extend(filtered_jobs)
 
                 off_set += 20  # Increment the offset for the next page of results

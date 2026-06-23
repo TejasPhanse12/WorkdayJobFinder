@@ -1,0 +1,89 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Packages for formatting
+\usepackage[empty]{fullpage}
+\usepackage[margin=0.5in]{geometry} % Sets 0.5 inch margins
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% Clear formatting for sections
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\huge Jane Doe} \\ \vspace{5pt}
+    \small 
+    (555) 111-6666 $|$ 
+    \href{mailto:nameXYZ@example.com}{nameXYZ@example.com} $|$ 
+    \href{https://linkedin.com}{://linkedin.com} $|$ 
+    \href{https://github.com}{://github.com}
+\end{center}
+
+
+%---------- EDUCATION ----------
+\section{Education}
+  \begin{itemize}[leftmargin=*]
+    \item[]
+      \textbf{University of Maine} \hfill Orono, ME \\
+      \textit{Bachelor of Science in Computer Science} \hfill \textit{May 2026} \\
+      \small{GPA: 3.8/4.0 $|$ Relevant Coursework: Data Structures, Algorithms, Software Engineering}
+  \end{itemize}
+
+
+%---------- SKILLS ----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:} Python, Java, C++, SQL, JavaScript \\
+     \textbf{Frameworks:} React, Node.js, Django, Spring Boot \\
+     \textbf{Tools:} Git, Docker, AWS, PostgreSQL, VS Code
+    }}
+ \end{itemize}
+
+
+%---------- EXPERIENCE ----------
+\section{Experience}
+  \begin{itemize}[leftmargin=*]
+    \item[]
+      \textbf{Tech Solutions Inc.} \hfill Boston, MA \\
+      \textit{Software Engineering Intern} \hfill \textit{June 2025 - August 2025}
+      \begin{itemize}
+        \item Developed and maintained microservices using Java and Spring Boot, improving API response time by 15\%.
+        \item Collaborated with the QA team to write automated unit tests, covering 90\% of new feature code.
+        \item Implemented CI/CD pipelines using GitHub Actions to streamline deployment processes.
+      \end{itemize}
+      
+    \item[]
+      \textbf{University of Maine IT Dept.} \hfill Orono, ME \\
+      \textit{Student Developer} \hfill \textit{September 2023 - May 2025}
+      \begin{itemize}
+        \item Designed a responsive dashboard using React and Node.js for 5,000+ students to track campus events.
+        \item Optimized database queries in PostgreSQL, reducing data retrieval time for legacy systems.
+      \end{itemize}
+  \end{itemize}
+
+
+%---------- PROJECTS ----------
+\section{Projects}
+  \begin{itemize}[leftmargin=*]
+    \item[]
+      \textbf{EcoTrack} \textbar{} \small{\textit{React, Python, REST API}} \hfill \textit{January 2026}
+      \begin{itemize}
+        \item Built a full-stack web application that allows users to track and analyze their daily carbon footprint.
+        \item Integrated a third-party REST API to provide real-time suggestions for sustainable commuting.
+      \end{itemize}
+      
+    \item[]
+      \textbf{Pathfinder} \textbar{} \small{\textit{Java, JavaFX, Dijkstra's Algorithm}} \hfill \textit{October 2024}
+      \begin{itemize}
+        \item Created an interactive desktop application that visualizes pathfinding algorithms on campus maps.
+        \item Implemented Dijkstra's algorithm from scratch, allowing users to find the shortest route between buildings.
+      \end{itemize}
+  \end{itemize}
+
+\end{document}
