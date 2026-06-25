@@ -1,6 +1,9 @@
 import requests
 import json
 import companyinfo as cpi
+import ollama 
+
+model = ollama.Client(model="llama3.2:3b")
 
 headers = {
     "Accept": "application/json",
