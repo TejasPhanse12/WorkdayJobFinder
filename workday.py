@@ -1,10 +1,28 @@
 import requests
 import json 
-import companyinfo as cpi
+
+class CompanyInfo:
+
+    company_dict = [
+        {"company":"comcast", "env":"wd115", "user_name":"Comcast_Careers"},
+        {"company":"wexinc", "env":"wd5", "user_name":"WEXInc"},
+        {"company":"idexx", "env":"wd115", "user_name":"IDEXX"},
+        {"company":"abbott", "env":"wd5", "user_name":"abbottcareers"},
+        {"company":"walmart", "env":"wd504", "user_name":"WalmartExternal"},
+        {"company":"huron", "env":"wd1", "user_name":"huroncareers"},
+        {"company":"nvidia", "env":"wd5", "user_name":"NVIDIAExternalCareerSite"},
+    ]
+
+    role = "Data Science United States"
 
 
-company_dict = cpi.CompanyInfo("comcast", "wd5", "Comcast_Careers").get_company_info()
-role = cpi.CompanyInfo("comcast", "wd5", "Comcast_Careers").get_role()
+cpi = CompanyInfo()
+company_dict = cpi.company_dict
+role = cpi.role
+
+print(type(company_dict))
+
+print(len(company_dict))
 
 headers = {
     "Accept": "application/json",
@@ -28,8 +46,14 @@ all_jobs = {}
 for company in company_dict:
     print(company["company"], company["env"], company["user_name"])
 
-    # The JSON search API lives at /wday/cxs/{tenant}/{site}/jobs — NOT the human-facing /en-US/ page URL
-    url = f"https://{company['company']}.{company['env']}.myworkdayjobs.com/wday/cxs/{company['company']}/{company['user_name']}/jobs"
+    domain_prefix = f"{company['company']}.{company['env']}" if company['env'] else company['company']
+
+    url = f"https://{domain_prefix}.myworkdayjobs.com/wday/cxs/{company['company']}/{company['user_name']}/jobs"
+
+    # # The JSON search API lives at /wday/cxs/{tenant}/{site}/jobs — NOT the human-facing /en-US/ page URL
+    # url = f"https://{company['company']}.{company['env']}.myworkdayjobs.com/wday/cxs/{company['company']}/{company['user_name']}/jobs"
+
+    print(url,"\n")
 
     # Number of jobs to return per page, offset for pagination, and search text are all passed in the body of the request
     off_set = 0
@@ -45,24 +69,26 @@ for company in company_dict:
             
             response = requests.post(url, headers=headers, json=payload)
 
-            if response.status_code == 200:
-                data = response.json()
+            if response.status_code != 200:
+                print(f"Skipping {company['company']}: HTTP {response.status_code} - {response.text[:200]}")
+                break
+            
+            data = response.json()
 
-                job_data = data.get("jobPostings", [])
+            job_data = data.get("jobPostings", [])
 
-                filtered_jobs = [ job for job in job_data if job.get("postedOn") in job_filter ]
+            filtered_jobs = [ job for job in job_data if job.get("postedOn") in job_filter ]
 
-                if company["company"] not in all_jobs:
-                    all_jobs[company["company"]] = []
-                    all_jobs[company["company"]].append({"url": url})
-                
-                # Append the filtered jobs to the company's list in the all_jobs dictionary
-                all_jobs[company["company"]].extend(filtered_jobs)
-
-                off_set += 20  # Increment the offset for the next page of results
-
-                if len(job_data) < 20:
-                    break  # Exit the loop if there are no more jobs to fetch
+            if company["company"] not in all_jobs:
+                all_jobs[company["company"]] = []
+                all_jobs[company["company"]].append({"url": url})
+            
+            # Append the filtered jobs to the company's list in the all_jobs dictionary
+            all_jobs[company["company"]].extend(filtered_jobs)
+            off_set += 20  # Increment the offset for the next page of results
+            if len(job_data) < 20:
+                break  # Exit the loop if there are no more jobs to fetch
+            
 
         except requests.exceptions.RequestException as e:
             print(f"An error occurred: {e}")
